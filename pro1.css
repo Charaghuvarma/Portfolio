@@ -251,6 +251,7 @@ lable {
   font-family: 'Noto Serif Lao', serif;
   font-size: 22px;
   color: blue;
+  text-decoration: none;
 }
 
 #my3 {
@@ -259,11 +260,17 @@ lable {
   color: black;
 }
 
+#my4 {
+  text-decoration: none;
+  color: blue;
+}
+
 #rv1,
 #rv2,
 #rv3,
 #rv4,
-#rv5 {
+#rv5,
+#rv6 {
   color: blueviolet;
 }
 
@@ -358,6 +365,42 @@ lable {
   flex-direction: column;
   background-color: rgb(225, 213, 162);
 }
+
+#content-container3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(212, 148, 158);
+}
+
+#img6 {
+  width: 100%;
+  height: auto;
+}
+
+#text-container {
+  padding: 0 20px;
+
+}
+
+@media (min-width: 768px) {
+  #content-container3 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #img6 {
+    width: 40%;
+    height: auto;
+  }
+
+  #text-container {
+    width: 60%;
+    padding: 0 40px;
+  }
+}
+
+
+
 
 #img3 {
   width: 100%;
